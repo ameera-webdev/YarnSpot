@@ -1,0 +1,9 @@
+Options -Indexes
+RewriteEngine On
+
+# Security headers (basic)
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+# If using clean URLs later, add rewrites here
