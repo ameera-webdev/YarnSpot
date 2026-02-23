@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>YarnSpot | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <style>
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      background: #fff;
+      padding: 10px 0;
+    }
+    .marquee p {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scrollText 20s linear infinite;
+      font-size: 18px;
+      color: #d6336c;
+      font-weight: 800;
+    }
+    @keyframes scrollText {
+      from { transform: translateX(100%); }
+      to { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation (Static version) -->
+  <header style="padding:15px; background:#fff; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+    <h2 style="color:#d6336c;">YarnSpot</h2>
+    <p>Web-Based Yarn Shopping & Order Management System</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section style="background:#f8d7da; padding:40px 0; text-align:center;">
+    <h1 style="color:#d6336c;">Welcome to YarnSpot</h1>
+    <p>Your cozy corner for yarn, tools, and inspiration.</p>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <p>Quality Yarns • Endless Possibilities • One-Stop Shop for Knitting & Crochet • Crafted with Love</p>
+  </div>
+
+  <!-- Main Content -->
+  <main style="padding:40px; text-align:center;">
+    <h2>Hello Guest!</h2>
+    <p>
+      This is the frontend preview of YarnSpot.  
+      Backend features like login, cart, and checkout are implemented using PHP & MySQL.
+    </p>
+
+    <!-- About Crochet -->
+    <section style="background:#fff; padding:40px; margin:40px auto; max-width:900px; border-radius:12px;">
+      <h2 style="color:#d6336c;">About Crochet</h2>
+      <img src="assets/images/crochet.jpg" alt="Crochet Art" style="max-width:100%; border-radius:12px;">
+      <p>
+        Crochet is more than just yarn and hooks — it’s an art form that blends creativity,
+        comfort, and tradition. YarnSpot celebrates this craft by providing quality materials
+        and inspiration for creators.
+      </p>
+    </section>
+
+    <!-- About Owner -->
+    <section style="background:#fdf1f4; padding:40px; margin:40px auto; max-width:900px; border-radius:12px;">
+      <h2 style="color:#d6336c;">About the Owner</h2>
+      <img src="assets/images/owner.jpg" alt="Owner Katheeja" style="width:200px; border-radius:50%;">
+      <p>
+        YarnSpot was founded by <strong>Katheeja</strong>, blending traditional craftsmanship
+        with modern web design to create a cozy, professional shopping experience.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer style="padding:20px; background:#fff; text-align:center;">
+    <p>© 2026 YarnSpot | PHP & MySQL Project</p>
+  </footer>
+
+</body>
+</html>
